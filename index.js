@@ -7,7 +7,7 @@ button.addEventListener("click",eventheander)
 function eventheander( ) {
  var input1 = one.value
  var input2 = two.value
- console.log(input1 - input2)
+ console.log(input1 * input1 * input1)
 
 
   
