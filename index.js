@@ -1,11 +1,18 @@
-var id = document.querySelector("#id")
-var b = document.querySelector("#b")
-var output = document.querySelector("#output")
+var one = document.querySelector("#one")
+var two = document.querySelector("#two")
+var button = document.querySelector("#button")
 
-b.addEventListener("click", eventhendler)
 
-function eventhendler(event) {
-    var input = id.value
-    console.log(input * input * input);
-    output.innerText = input * input * input
+button.addEventListener("click",eventheander)
+function eventheander( ) {
+ var input1 = one.value
+ var input2 = two.value
+ console.log(input1 - input2)
+
+
+  
 }
+
+
+
+
