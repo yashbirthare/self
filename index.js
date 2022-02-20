@@ -1,18 +1,13 @@
-var one = document.querySelector("#one")
-var two = document.querySelector("#two")
-var button = document.querySelector("#button")
+var oneI = document.querySelector("#oneI");
+var twoI = document.querySelector("#twoI");
+var btn = document.querySelector("#btn");
+var out = document.querySelector("#out");
 
+btn.addEventListener("click", clickEventHandler);
+function clickEventHandler(){
+    
+    var input1 = oneI.value;
+    var input2 = twoI.value;
 
-button.addEventListener("click",eventheander)
-function eventheander( ) {
- var input1 = one.value
- var input2 = two.value
- console.log(input1 * input1 * input1)
-
-
-  
+    out.innerText = ( input1 * input2);
 }
-
-
-
-
