@@ -34,7 +34,7 @@
   <li>mango</li>
 </ul>
 
-<ol type="i" start="3">
+<ol type="1d" start="3">
   <li>apple</li>
   <li>orange</li>
   <li>banana</li>
@@ -64,9 +64,10 @@
 <marquee behavior="scroll" scrollamount="2"   direction="down" bgcolor="red"> hello my name is yash</marquee>
 <marquee behavior="scroll" scrollamount="2"  direction="up" bgcolor="green"> hello my name is yash</marquee>
 
-<from>
-
-  <label>Name</label> <input type="text" name="Name" />
+<form>
+  <fieldset>
+    <legend>Enter Personal Detail</legend>
+  <label>Name</label> <input type="text" name="Name"  placeholder="enter your name"/>
   <br/><br/>
 
   <label>Password</label> <input type="password" name="password"/>
@@ -77,13 +78,109 @@
 
  <label>hobbies</label> <input type="checkbox" name="hobbies" id="music"/> <label for="music">music</label> <input type="checkbox"
  name="hobbies" id="football"/> <label for="football">football</label>
-</from>
+
 <br/><br/>
-<label>message</label>
 
+<label>message</label> <textarea rows="5" cols="10">yahoo baba</textarea>
+<br/><br/>
+<label>city</label><select size="2">
+  <option>guna</option>
+  <option>asoknagar</option>
+  <option>bhopal</option>
+  <option>indore</option>
+  <option selected >binaganj</option>
+  <option>jaipur</option>
+</select>
 
+<br/><br/>
 
+<label>laptop</label> <select> 
+  <optgroup label="asus">
+    <option>hp</option>
+    <option selected>dell</option>
+    <option>msi</option>
+  </optgroup>
+  <optgroup label="asus">
+    <option>hp</option>
+    <option>dell</option>
+    <option>msi</option>
+  </optgroup>
+</select>
 
+<br/><br/>
+
+<label>laptop</label><input list="laptop">
+                      <datalist id="laptop">
+                       <option value="dell">
+                        <option value="hp">
+                        <option value="sumsang">
+                        <option value="lenovo">
+                      </datalist>
+<br/><br/>
+
+<label>upload file</label> <input type="file" accept="image/*"/> 
+
+<br/><br/>
+
+<input type="submit" value="Save">
+<input type="button" value="Click">
+<input type="reset"/>
+</fieldset>
+</form>
+
+<form>
+<h1 align=" center">new input types </h1>
+
+<label>Select Color</label> <input type="color" name="" id=""/>
+
+<br/><br/>
+
+<label>Number</label> <input type="number" name="" min="0" max="100" step="10"/>
+
+<br></br>
+
+<label>Range</label> <input type="Range" name="" min="0" max="100" step="20"/>
+
+<br></br>
+
+<label>Date</label> <input type="date" name="" id=""/>
+
+<br></br>
+
+<label>DateTime</label> <input type="datetime-local" name="" id=""/>
+
+<br/><br/>
+
+<label>Month</label> <input type="month" name="" id=""/>
+
+<br/><br/>
+
+<label>Week</label> <input type="week" name="" id=""/>
+
+<br/><br/>
+
+<label>Time</label> <input type="time" name="" id=""/>
+
+<br/><br/>
+
+<label>Email</label> <input type="email" name="" id=""/>
+<br/><br/>
+
+<label>URL</label> <input type="url" name="" id=""/>
+
+<br/><br/>
+
+<label>Search</label> <input type="search" name="" id="">
+
+<br/><br/>
+
+<label>Phone.No</label> <input type="tel" name="" id="">
+
+<br/><br/>
+
+<input type="submit"/>
+
+</form>
 <div style="height: 50vh;"></div>
 </body>
 </html>
