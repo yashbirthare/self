@@ -1,0 +1,18 @@
+
+
+.vip2{
+    background-color: red;
+    width: 50%;
+    font-size: large;
+}
+
+.paragrap{
+    text-align: justify;
+    align-items: center;
+    border: 2px solid red;
+    outline: 1px solid  green;
+    outline-offset: 12px;
+    width: 50%;
+    margin: auto;
+    padding: 10px 20px;
+}
