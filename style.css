@@ -33,8 +33,6 @@ width: 50%;
 
 .height{
     border: 2px solid red;
-    width: 300px;
-    margin: auto;
-    min-height: 100px;
-    max-height: 500px;
+    max-height: 300px;
+    width: 50%;
 }
