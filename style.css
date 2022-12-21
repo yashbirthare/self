@@ -45,10 +45,11 @@ width: 50%;
     border: 2px solid red;
     margin: auto ;
     width: 50%;
+    
 }
 
 img{
-    width: 100px;
+    width: 100%;
 }
 
 
@@ -58,4 +59,11 @@ img{
     padding: 30px;
     box-sizing: border-box;
     margin: 50px auto;
+}
+.overflow{
+    width: 250px;
+    height: 250px;
+    border:  2px solid black;
+    overflow:auto;
+    
 }
