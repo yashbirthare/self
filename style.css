@@ -82,7 +82,22 @@ img{
 .radius2{
     background-color: yellow;
     border: 10px solid red;
-    width: 150px;
-    height: 150px;
+    box-shadow: 10px 20px 25px orange;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
+    margin-bottom: 50px;
+    
 }
+
+
+.box-shadow{
+    width: 50%;
+    height: 150px;
+    border: 5px double black;
+    background-color: pink;
+    box-shadow: 6px 6px 2px 10px black;
+    padding: 50px;
+    margin: auto;
+}
+/* ======== also - property ========= */
