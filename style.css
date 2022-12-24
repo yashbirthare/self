@@ -91,34 +91,28 @@ img{
 }
 
 .first{
-    border:  2px solid black;
-    margin: 10px;
     width: 300px;
+    border:  2px solid black;
+    background-color:  pink;
     float: left;
     
 }
 
 .second{
-    border:  2px solid black;
-    margin: 10px;
     width: 300px;
-    float: left;
+    border:  2px solid black;
+    background-color:  green;
+    float: right;
     
 }
 .third{
     border:  2px solid black;
-    margin: 10px;
-    width: 300px;
-    float: left;
+    background-color:  gold;
+    clear: both;
+
     
 }
 
-.fourth{
-    border:  2px solid black;
-    margin: 10px;
-    width: 300px;
-    float: left;
-    
-}
+
 
 /* ======== also - property ========= */
