@@ -119,6 +119,19 @@ img{
     word-wrap: break-word;
 }
 
+.text-shadow{
+    text-shadow: -3px -3px 5px yellow, -6px -3px 5px green, -8px -3px 5px red;
+}
+
+.white{
+    width: 400px;
+    border: 1px solid black;
+    overflow: hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    
+}
+
 
 
 /* ======== also - property ========= */
