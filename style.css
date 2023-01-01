@@ -1,4 +1,5 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 .vip2{
     background-color: rgb(250, 0, 0);
@@ -118,7 +119,8 @@ img{
      text-indent: 100px;
      word-spacing: 2px;
      letter-spacing: 2px;
-     word-break: break-all;
+     /* word-break: break-all; */
+     word-wrap: break-word;
  
 
 }
@@ -153,12 +155,13 @@ img{
 .column{
     margin: 50px;
     border: 2px solid black;
-    /* column-count:3; */
-    column-width: 100px;
+    column-count:3;
+    /* column-width: 100px; */
     column-gap: 50px;
     column-rule-width: 5px;
-    column-rule-style:dotted;
+    column-rule-style: dashed;
     column-rule-color: yellow;
+    
     /* column-rule: 5px solid yellow; */
  
 }
@@ -167,4 +170,9 @@ img{
     column-span: all;
 }
 
+
+.Font-Faces{
+    font-family: 'Oswald', sans-serif;
+
+}
 /* ======== also - property ========= */
