@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
 
 .vip2{
     background-color: rgb(250, 0, 0);
@@ -151,7 +151,6 @@ img{
        /* writing-mode:vertical-rl; */
 }
 
-
 .column{
     margin: 50px;
     border: 2px solid black;
@@ -172,7 +171,13 @@ img{
 
 
 .Font-Faces{
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+  
 
 }
+
+
+
+
+
 /* ======== also - property ========= */
