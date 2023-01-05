@@ -137,9 +137,9 @@ img{
 .white{
     width: 400px;
     border: 1px solid black;
-    overflow: hidden;
     white-space:nowrap;
-    text-overflow:ellipsis;
+    overflow: hidden;
+    text-overflow: ellipsis;
     margin: 50px;
 
 }
@@ -175,6 +175,31 @@ img{
   
 
 }
+
+
+ul{
+    list-style-type:disc;
+    border: 2px solid red;
+    list-style-position:inside;
+    list-style-image: url(images/icon.svg);
+}
+
+ul li {
+    padding:  3px ;
+}
+
+
+ol{
+    list-style-type:lower-roman;
+    border: 2px solid red;
+    list-style-position:inside;
+}
+
+
+/* body{
+    background-image: url(/images/heroImages.jpg);
+    background-repeat:repeat;
+} */
 
 
 
