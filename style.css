@@ -201,8 +201,25 @@ ol{
     background-repeat:repeat;
 } */
 
+.position{
+    height: 150px;
+    width: 150px;
+    background-color:brown;
+    position:absolute;
+    top:0;
+    right: 0;
+   
+}
+
+.position1{
+    height: 500px;
+    width: 500px;
+    background-color:palegoldenrod;
+    position: relative;
+}
 
 
-
-
+.flexbox{
+    
+}
 /* ======== also - property ========= */
