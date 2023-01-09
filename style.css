@@ -230,8 +230,8 @@ ol{
 
 
   display: flex;
- flex-direction:row;
- flex-wrap:wrap;
+ flex-direction:column;
+ flex-wrap: wrap;
  /* justify-content: space-between; */
 
  /* flex-flow: column wrap;            */
@@ -301,6 +301,36 @@ ol{
 
 
 }  */
+
+
+
+
+.container{
+  display:flex;
+ flex-direction:row;
+  flex-wrap:wrap; 
+  /* flex-flow: row wrap; */
+   align-content:center; 
+   /* align-items: center;  */
+  justify-content:center;
+  background-color: cornflowerblue;
+  height: 400px;
+}
+
+.child{
+  border-radius: 10px;
+  padding: 24px;
+  text-align: center;
+  background: blueviolet;
+  height: 40px;
+  border: 2px solid ; 
+}
+
+.child:nth-child(3){
+   background-color: red;
+   height: 60px;
+
+}
 
 /* ======== also - property ========= */
 
