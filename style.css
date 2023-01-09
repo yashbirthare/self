@@ -223,15 +223,16 @@ ol{
 .flexbox{
 
     border: 2px solid black;
- 
+     /* height: 200px; */
     margin: 50PX;
     padding: 10px;
 
 
 
   display: flex;
- flex-direction:column;
+ flex-direction:row;
  flex-wrap:wrap;
+ /* justify-content: space-between; */
 
  /* flex-flow: column wrap;            */
 }
