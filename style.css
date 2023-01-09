@@ -139,7 +139,7 @@ img{
     border: 1px solid black;
     white-space:nowrap;
     overflow: hidden;
-    text-overflow: ellipsis;
+    text-overflow:ellipsis;
     margin: 50px;
 
 }
@@ -148,7 +148,7 @@ img{
        border: 5px solid black;
        width: 300px;
        margin: auto;
-       /* writing-mode:vertical-rl; */
+       /* writing-mode:vertical-lr; */
 }
 
 .column{
@@ -223,17 +223,17 @@ ol{
 .flexbox{
 
     border: 2px solid black;
-    height: 200PX; 
+ 
     margin: 50PX;
     padding: 10px;
 
 
 
   display: flex;
-  flex-direction:column;
-  flex-wrap:wrap;
+ flex-direction:column;
+ flex-wrap:wrap;
 
-  /* flex-flow: column wrap;           */
+ /* flex-flow: column wrap;            */
 }
 
 /* / ======== shot form / */
@@ -263,12 +263,12 @@ ol{
 /* ================================================================================================== */
 .Gird{
     display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: 100px;
+     grid-template-columns: auto auto; 
+    /* grid-template-rows: 50px; */
     border: 2px solid black;
     height: 200PX; 
     margin:  50px;
-    padding: 10px;
+    padding: 10px; 
 }
 .Gird-1{
     background-color: orange;
@@ -292,7 +292,14 @@ ol{
     margin: 5px;
 }
 
+/* body{
+    background-image: url(images/heroImages.jpg);
+    background-size: 900px;
+    background-repeat:round;
+    background-position: left bottom;
 
+
+}  */
 
 /* ======== also - property ========= */
 
