@@ -55,7 +55,7 @@ img{
     height: 250px;
     border:  2px solid black;
     margin:  40px;
-    overflow:scroll;
+    overflow:auto;
     
 }
 
@@ -119,18 +119,20 @@ img{
      text-indent: 100px;
      word-spacing: 2px;
      letter-spacing: 2px;
-     /* word-break: break-all; */
-     word-wrap: break-word;
+     /* text-align-last: center; */
+     /* line-height: 20px; */
+     word-break: break-all;
+     /* word-wrap:break-word; */
  
 
 }
 
 .text-shadow{
     text-shadow: -3px -3px 5px yellow, -6px -3px 5px green, -8px -3px 5px red;
-    /* text-decoration-line: underline;
-    text-decoration-style: dotted ;
+     /* text-decoration-line: underline; 
+    text-decoration-style: dotted;
     text-decoration-color: red;
-    text-decoration-thickness: 5px; */
+    text-decoration-thickness: 5px;  */
     text-decoration:  5px underline dotted red ;
 }
 
@@ -162,11 +164,10 @@ img{
     column-rule-color: yellow;
     
     /* column-rule: 5px solid yellow; */
- 
 }
 
 .hhh{
-    column-span: all;
+    column-span:all;
 }
 
 
@@ -207,7 +208,7 @@ ol{
     background-color:brown;
     position:absolute;
     top:0;
-    right: 0;
+    left: 0;
    
 }
 
@@ -230,8 +231,8 @@ ol{
 
 
   display: flex;
- flex-direction:column;
- flex-wrap: wrap;
+ /* flex-direction:row;
+ flex-wrap:wrap; */
  /* justify-content: space-between; */
 
  /* flex-flow: column wrap;            */
