@@ -224,25 +224,27 @@ ol{
 .flexbox{
 
     border: 2px solid black;
-     /* height: 200px; */
+     height: 200px;
     margin: 50PX;
     padding: 10px;
 
 
 
   display: flex;
- flex-direction:row;
- flex-wrap:wrap;
- /* justify-content: space-between; */
+ /* flex-direction:column;
+ flex-wrap:wrap */
+ justify-content:center;
+ align-items: center;
+ flex-flow: row wrap;   
+          
 
- /* flex-flow: column wrap;            */
+
 }
 
 /* / ======== shot form / */
 
 .color-1{
-    background-color:  orange;
-    
+    background-color:  orange;   
 }
 .color-2{
     background-color: yellowgreen;    
