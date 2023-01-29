@@ -233,9 +233,10 @@ ol{
   display: flex;
  /* flex-direction:column;
  flex-wrap:wrap */
- justify-content:center;
+ flex-flow: row wrap;  
+ /* justify-content:center; */
  align-items: center;
- flex-flow: row wrap;   
+ 
           
 
 
