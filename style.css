@@ -20,7 +20,7 @@
 
 .height{
     min-height: 100px;
-    max-height: 500px;
+    max-height: 500px; 
     width: 50%;
     margin: 50px auto;
     border: 3px solid red;
@@ -129,10 +129,11 @@ img{
 
 .text-shadow{
     text-shadow: -3px -3px 5px yellow, -6px -3px 5px green, -8px -3px 5px red;
-     /* text-decoration-line: underline; 
+    /* text-decoration-thickness: 5px; 
+     text-decoration-line: underline; 
     text-decoration-style: dotted;
-    text-decoration-color: red;
-    text-decoration-thickness: 5px;  */
+    text-decoration-color: red; */
+ 
     text-decoration:  5px underline dotted red ;
 }
 
@@ -202,6 +203,13 @@ ol{
     background-repeat:repeat;
 } */
 
+.position1{
+    height: 500px;
+    width: 500px;
+    background-color:palegoldenrod;
+    position: relative;
+}
+
 .position{
     height: 150px;
     width: 150px;
@@ -210,13 +218,6 @@ ol{
     top:0;
     left: 0;
    
-}
-
-.position1{
-    height: 500px;
-    width: 500px;
-    background-color:palegoldenrod;
-    position: relative;
 }
 
 /* =========================================================================================================== */
@@ -231,12 +232,12 @@ ol{
 
 
   display: flex;
- flex-direction:row;
- /* flex-wrap:wrap; */
+ flex-direction:column;
+ flex-wrap:wrap;
  /* flex-flow: row wrap;   */
- justify-content:end;
- /* align-content: end; */
- align-items: end;
+ justify-content:flex-start;
+ align-content: start;
+ /* align-items: end; */
 
  
           
@@ -310,9 +311,8 @@ ol{
   flex-direction:row;
   /* flex-wrap:wrap;   */
   /* flex-flow: row wrap; */
-   /* align-content: end;           */
-   align-items:center;  
-
+   /* align-content:end;           */
+   align-items:end;  
    justify-content:center;
    /* gap: 10px; */
   background-color: cornflowerblue;
