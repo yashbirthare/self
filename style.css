@@ -196,12 +196,15 @@ ol{
     border: 2px solid red;
     list-style-position:inside;
 }
+/* 
 
-
-/* body{
-    background-image: url(/images/heroImages.jpg);
-    background-repeat:repeat;
-} */
+ body{
+       background-image: url(/images/heroImages.jpg);
+    background-position: right top;
+    background-attachment: fixed;
+  background-size: 300px 350px;
+    background-repeat:no-repeat
+}  */
 
 .position1{
     height: 500px;
