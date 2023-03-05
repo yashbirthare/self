@@ -235,12 +235,12 @@ ol{
 
 
   display: flex;
- flex-direction:column;
- flex-wrap:wrap;
+ flex-direction:row;
+ /* flex-wrap:wrap; */
  /* flex-flow: row wrap;   */
- justify-content:flex-start;
- align-content: start;
- /* align-items: end; */
+ justify-content:end;
+ /* align-content: end; */
+ align-items:center;
 
  
           
@@ -266,6 +266,8 @@ ol{
 .color-5{
     background-color:royalblue;
 }
+
+
 .flex{
     color: black;
     font-size: 20px;
@@ -315,7 +317,7 @@ ol{
   /* flex-wrap:wrap;   */
   /* flex-flow: row wrap; */
    /* align-content:end;           */
-   align-items:end;  
+   align-items:center;  
    justify-content:center;
    /* gap: 10px; */
   background-color: cornflowerblue;
