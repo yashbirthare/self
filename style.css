@@ -236,11 +236,11 @@ ol{
 
   display: flex;
  flex-direction:column;
- flex-wrap:wrap;
+ /* flex-wrap:wrap; */
  /* flex-flow: row wrap;   */
- /* justify-content:end; */
- /* align-content: end; */
- /* align-items:center; */
+ justify-content: center; 
+  /* align-content: end; */
+ align-items:center;
 
  
           
