@@ -196,9 +196,9 @@ ol{
     border: 2px solid red;
     list-style-position:inside;
 }
-/* 
 
- body{
+
+ /* body{
        background-image: url(/images/heroImages.jpg);
     background-position: right top;
     background-attachment: fixed;
