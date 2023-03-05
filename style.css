@@ -235,12 +235,12 @@ ol{
 
 
   display: flex;
- flex-direction:row;
- /* flex-wrap:wrap; */
+ flex-direction:column;
+ flex-wrap:wrap;
  /* flex-flow: row wrap;   */
- justify-content:end;
+ /* justify-content:end; */
  /* align-content: end; */
- align-items:center;
+ /* align-items:center; */
 
  
           
@@ -278,7 +278,7 @@ ol{
 /* ================================================================================================== */
 .Gird{
     display: grid;
-     grid-template-columns:auto auto ;
+     grid-template-columns:auto auto  ;
      /* grid-template-columns:1fr 2fr 1fr ;  */
     grid-template-rows: 50px  ;
     grid-gap: 5px;
