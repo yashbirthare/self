@@ -319,7 +319,7 @@ ol{
   /* flex-flow: row wrap; */
    /* align-content:end;           */
    align-items:center;  
-   justify-content:center;
+   justify-content:end;
    /* gap: 10px; */
   background-color: cornflowerblue;
   height: 400px;
